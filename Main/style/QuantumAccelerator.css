@@ -1,0 +1,55 @@
+.info-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(4px);
+}
+
+.info-card svg {
+    margin-bottom: 5px;
+}
+
+.project-container {
+    margin-top: 20px;
+}
+
+.bgVideoTop {
+    position: absolute;
+    width: 99%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#QALogo {
+    align-content: center;
+    z-index: 0;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.QAHeader {
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    color: #007593;
+}
+
+.col-6,
+.col-7,
+.col-5 {
+    margin-bottom: 50px;
+}
+
+.screenshot {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.info-card .card-title,
+svg {
+    color: #007593;
+}
+
+.strong-QA {
+    color: #007593;
+}

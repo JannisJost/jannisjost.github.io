@@ -1,0 +1,189 @@
+.socials-container {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.socials-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+
+.socials-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.socials-icons i {
+    color: #fff;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    transition: all 265ms ease-out;
+}
+
+.socials-icons a {
+    display: inline-block;
+}
+
+.socials-icons a:before {
+    transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #d9d9d9, #a6a6a6);
+    transition: all 265ms ease-out;
+}
+
+.socials-icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.socials-icons a:hover i {
+    transform: scale(2.2);
+    color: #a6a6a6;
+    background: linear-gradient(45deg, #d9d9d9, #a6a6a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
+
+#skills-card {
+    width: 80%;
+}
+
+#skills-title,
+#aboutme-title {
+    margin-bottom: 5vh;
+}
+
+#interests-title {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.devicon {
+    font-size: 100px;
+    margin: 32px;
+}
+
+#skills-container {
+    width: 50%;
+}
+
+.devicon-java-plain-wordmark:hover {
+    color: #EA2D2E;
+    transition: all 0.75s;
+}
+
+.devicon-csharp-plain:hover {
+    color: #68217A;
+    transition: all 0.75s;
+}
+
+.devicon-mysql-plain-wordmark:hover {
+    color: #00618A;
+    transition: all 0.75s;
+}
+
+.devicon-vscode-plain:hover {
+    color: #68217A;
+    transition: all 0.75s;
+}
+
+.devicon-html5-plain-wordmark:hover {
+    color: #E54D26;
+    transition: all 0.75s;
+}
+
+.devicon-css3-plain-wordmark:hover {
+    color: #3D8FC6;
+    transition: all 0.75s;
+}
+
+.devicon-bootstrap-plain-wordmark:hover {
+    color: #59407F;
+    transition: all 0.75s;
+}
+
+.devicon-jquery-plain-wordmark:hover {
+    color: #0769AD;
+    transition: all 0.75s;
+}
+
+#aboutme-text {
+    font-size: 12pt;
+}
+
+.aboutme {
+    height: 50vh;
+}
+
+.contact-card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    padding-top: 65px;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.card-link,
+.card-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+}
+
+.img-container .img-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-overlay span {
+    color: #959595;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    font-weight: 900;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+}
