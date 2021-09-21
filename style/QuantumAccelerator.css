@@ -34,9 +34,9 @@
     color: #007593;
 }
 
-.col-6,
-.col-7,
-.col-5 {
+.col-md-6,
+.col-md-7,
+.col-md-5 {
     margin-bottom: 50px;
 }
 
