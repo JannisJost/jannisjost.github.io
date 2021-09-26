@@ -42,7 +42,11 @@
 
         <main class="container-fluid">
             <div class="img-container">
-                <img src="style/img/bg.jpg" class="head-image" alt="Code">
+                <picture class="head-image">
+                    <source type="image/avif" srcset="style/img/avif/bg.avif">
+                    <source type="image/webp" srcset="style/img/webp/bg.webp">
+                    <img src="style/img/bg.jpg" class="head-image" alt="Code">
+                </picture>
                 <div class="img-overlay">
                     <h1 class="display-3">
                         <span>Welcome</span>
@@ -81,7 +85,10 @@
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="style/img/interests/network.png" class="img-fluid rounded-start" alt="Network">
+                                        <picture>
+                                            <source type="image/webp" srcset="style/img/interests/webp/network.webp">
+                                            <img src="style/img/interests/network.png" class="img-fluid rounded-start" alt="Network">
+                                        </picture>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -97,7 +104,11 @@
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="style/img/interests/web.png" class="img-fluid rounded-start" alt="websites opened on devices">
+                                        <picture>
+                                            <source type="image/avif" srcset="style/img/interests/avif/web.avif">
+                                            <source type="image/webp" srcset="style/img/interests/webp/web.webp">
+                                            <img src="style/img/interests/web.png" class="img-fluid rounded-start" alt="websites opened on devices">
+                                        </picture>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -113,7 +124,11 @@
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img src="style/img/interests/ai.png" class="img-fluid rounded-start" alt="computer brain">
+                                        <picture>
+                                            <source type="image/avif" srcset="style/img/interests/avif/ai.avif">
+                                            <source type="image/webp" srcset="style/img/interests/webp/ai.webp">
+                                            <img src="style/img/interests/ai.png" class="img-fluid rounded-start" alt="computer brain">
+                                        </picture>
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
