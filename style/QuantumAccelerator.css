@@ -12,6 +12,16 @@
     margin-top: 20px;
 }
 
+#sf-badge-wrapper {
+    margin-top: -25px;
+    margin-bottom: 25px;
+    width: 125px;
+}
+
+.support-body {
+    text-align: left;
+}
+
 .bgVideoTop {
     position: absolute;
     width: 99%;
